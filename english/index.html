@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plus JE</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div id="game_menu" class="game_background updown">
+        <p>EnglishTest</p>
+        <button class="btn" onclick="startGame()">StartGame</button>
+        <p></p>
+    </div>
+    <div id="realgame" class="game_background none">
+        <p id="failCount">Fail Count : 0</p>
+        <div id="mainword" class="words">
+            <p>test word</p>
+        </div>
+        <hr color="#838383" size="10px"/>
+        <div class="select_option">
+            <div id="word1" class="each_word">
+                <p>단어입니다 ㅋㅋㅋ</p>
+            </div>
+            <div id="word2" class="each_word">
+                <p>단어</p>
+            </div>
+            <div id="word3" class="each_word">
+                <p>단어</p>
+            </div>
+            <div id="word4" class="each_word">
+                <p>단어</p>
+            </div>
+        </div>
+    </div>
+    <div id="EndingPanal" class="game_background none">
+        <h1>Finished!</h1>
+        <p id="failCount">Fail Count : 0</p>
+        <a href="..">back to Menu</a>
+    </div>
+
+    <script src="../script.js"></script>
+
+</body>
+</html>
